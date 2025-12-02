@@ -185,18 +185,19 @@ export default function Home() {
     {
       title: 'E-Commerce Platform',
       description: 'A full-stack e-commerce solution with user authentication, shopping cart, order management, favorites, and product reviews. Features a modern UI with smooth animations, responsive design, and session-based guest checkout support.',
-      image: '/projects/oja.png',
-      technologies: ['Next.js', 'TypeScript', 'MongoDB', 'Tailwind'],
+      image: '/projects/oja-pic.png',
+      technologies: ['Next.js', 'TypeScript', 'Tailwind','React Query', 'Zustand'],
       github: 'https://github.com/jesse-rotimi7/oja',
       live: 'https://oja-ruddy.vercel.app/',
       featured: true,
     },
     {
-      title: 'ITScope Solutions Corporate Website',
-      description: 'A modern corporate website showcasing IT consulting services with an interactive product catalog, payment integration, and dynamic content sections. Built with responsive design and smooth animations.',
-      image: '/projects/Its.png',
-      technologies: ['React', 'TypeScript', 'Tailwind CSS', 'EmailJS'],
-      live: 'https://www.itscopesolutions.com/',
+      title: 'News Application',
+      description: 'A sleek news aggregation platform powered by NewsData.io API, featuring real-time updates, category filters, bookmarking, dark mode, and a stunning glassmorphism interface. Fully responsive with smooth animations and optimized performance.',
+      image: '/projects/shele.png',
+      technologies: ['Next.js', 'TypeScript', 'Tailwind','React Query', 'Zustand'],
+      live: 'https://shele-news.vercel.app/',
+      github: 'https://github.com/jesse-rotimi7/shele-Newsapp',
       featured: true,
     },
     // {
@@ -352,7 +353,7 @@ export default function Home() {
                   View Projects
                 </button> */}
               <a 
-                href="/Jesse_Rotimi's Resume.pdf" 
+                href="/Jesse_Rotimi's_Resume.pdf" 
                 download="Jesse_Rotimi_Resume.pdf"
                 className="cta-button cta-button-download"
               >
