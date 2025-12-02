@@ -1752,18 +1752,20 @@ a {
   .hero-container {
     grid-template-columns: 1fr;
     gap: 3rem;
-    padding: 0 1rem;
+    padding: 0 1.5rem;
   }
 
   .hero-content {
-    text-align: center;
+    text-align: left;
     max-width: 100%;
   }
 
   .hero-image-wrapper {
     order: -1;
     max-width: 300px;
-    margin: 0 auto;
+    margin: 0;
+    justify-content: flex-start;
+    align-self: flex-start;
   }
 
   .hero-image {
@@ -1771,31 +1773,32 @@ a {
   }
 
   .hero-greeting {
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .hero-description {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .hero-actions {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     gap: 1.5rem;
+    width: 100%;
   }
 
   .cta-buttons {
     width: 100%;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
   }
 
   .cta-button {
     flex: 1;
     min-width: 140px;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .cta-button-download {
@@ -2047,14 +2050,18 @@ a {
 
   .hero-container {
     gap: 2rem;
+    padding: 0 1rem;
   }
 
   .hero-image-wrapper {
     max-width: 250px;
+    margin: 0;
+    align-self: flex-start;
   }
 
   .hero-actions {
     gap: 1rem;
+    align-items: flex-start;
   }
 
   .cta-buttons {

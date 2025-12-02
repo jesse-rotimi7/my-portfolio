@@ -150,8 +150,8 @@ export default function Home() {
       location: 'Lagos, Nigeria',
       period: 'March 2023 - Sept 2023',
       responsibilities: [
-        'Spearheaded the successful launch of a new company website using full-stack development (HTML, CSS, JavaScript, Python Flask), collaborating with a supervisor',
-        'Optimized mobile responsiveness of the company\'s React e-commerce site for selling artworks, enhancing user experience and performance',
+        'Contributed to the development and launch of the company\'s new website, working with HTML, CSS, JavaScript, and Python Flask under guidance from senior staff',
+        'Collaborated closely with my supervisor to clarify requirements, implement features, and ensure smooth and timely project delivery',
       ],
       side: 'right',
     },
