@@ -174,6 +174,15 @@ export default function Home() {
 
   const projects = [
     {
+      title: 'Dayspring MFB',
+      description: 'Modern banking frontend built with Next.js 16, React 19, and TypeScript, focused on speed, reliability, and security. Uses Tailwind CSS v4 and styled-components for a responsive UI, Sanity CMS for content management, and react-hook-form + zod with EmailJS for validated form handling, with ESLint ensuring code quality.',
+      image: '/projects/dayspring.png',
+      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Sanity CMS', 'React Hook Form', 'EmailJS', 'ESLint'],
+      // github: 'https://github.com/your-username/project-placeholder',
+      live: 'https://www.dayspringmfb.com/',
+      featured: false,
+    },
+    {
       title: 'Chat Application',
       description: 'Soro Chat — Real-time chat application with user authentication, direct messaging. Features Socket.io for instant messaging, avatar uploads, and online status indicators. Deployed on Vercel (frontend) and Render (backend) with MongoDB Atlas.',
       image: '/projects/chat.png',
